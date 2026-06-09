@@ -13,13 +13,13 @@ By the end of the session, attendees will understand:
 3. The key OpenMP pragma that can parallelise a loop in one line
 4. How MPI coordinates work across multiple machines, and why it scales to thousands of nodes
 
-All code is provided as ready-to-run scripts. No prior parallel programming experience is required, just basic familiarity with Python and/or C++. In this repository you will find an example for running a Monte Carlo Pi Estimation using 20,000,000 random points implemented in:
+All code is provided as ready-to-run scripts. No prior parallel programming experience is required, just basic familiarity with Python and/or C++. In this repository you will find an example for running a [Monte Carlo Pi Estimation](https://www.geeksforgeeks.org/dsa/estimating-value-pi-using-monte-carlo/) using 20,000,000 random points implemented in:
 
-1. Baseline Sequential Python: 
-2. Multiprocess Python: 
-3. OpenMP: 
-4. MPI:
-5. OpenMP+MPI: 
+1. [Baseline Sequential Python](https://github.com/youssefwally/FromForLoopToSupercomputer/blob/main/code/demo_python.py)
+2. [C++](https://github.com/youssefwally/FromForLoopToSupercomputer/blob/main/code/demo_cpp.cpp)
+3. [Multiprocess Python](https://github.com/youssefwally/FromForLoopToSupercomputer/blob/main/code/demo_multiprocessing.py)
+4. [OpenMP](https://github.com/youssefwally/FromForLoopToSupercomputer/blob/main/code/demo_openmp.cpp)
+5. [MPI](https://github.com/youssefwally/FromForLoopToSupercomputer/blob/main/code/demo_mpi.cpp)
 
 # Quick start:
 
